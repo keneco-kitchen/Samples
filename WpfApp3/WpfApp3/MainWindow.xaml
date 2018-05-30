@@ -6,8 +6,13 @@
         xmlns:local="clr-namespace:WpfApp3"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525" Background="Blue">
-    <Grid>
+    <Canvas >
         <Path Data="M17.7071,2.9289 A10,10 45 0 0 10,0 A10,10 270 1 0 20,10 L16,10 A6,6 270 1 1 10,4 A6,6 45 0 1 14.24264,5.75736 L12.121340,7.8786797 L19.19238,7.8786797 L19.192388,0.807612" Fill="red"/>
-
-    </Grid>
+        <Path Data="M0,180 L80,150 190,43 145,0 34,112 z M18,157 L26,165 72,146 40,117 z" Fill="Black" />
+        <Path Data="M0,0 L0,100 100,100 100,20 80,0 z
+                    M15,50 L15,90 85,90 85,50 z
+                    M15,5 L15,5 15,40 70,40 70,5 z
+                    M50,10 L50,35 60,35 60,10 z"
+             Fill="Gray"  Stretch="Uniform"   />
+    </Canvas>
 </Window>
